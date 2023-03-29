@@ -13,14 +13,14 @@ VALUES
 
 INSERT INTO album (name,year) VALUES
 	 ('Kind of Blue',1959),
-	 ('Bird and Diz',1952),
+	 ('Kind of Blue',1952),
 	 ('Ella and Louis',1956),
 	 ('Benny Goodman',1970),
 	 ('April in Paris',2021),
 	 ('Last Recording',1959),
 	 ('We Insist!',1960),
 	 ('Money Jungle',1958),
-	 ('Porgi and Bess',1959),
+	 ('We Insist!',1959),
 	 ('Body and Soul',2020);
 
 INSERT INTO genre (name) VALUES
@@ -85,7 +85,7 @@ INSERT INTO track ("name",duration,album_id) VALUES
 	 ('Mega track',765,10),
 	 ('Lovley track',766,10);
 
-INSERT INTO сollection ("name","year") VALUES
+INSERT INTO collection ("name","year") VALUES
 	 ('Сборник 1',1956),
 	 ('Сборник 2',1960),
 	 ('Сборник 3',1962),
@@ -95,7 +95,7 @@ INSERT INTO сollection ("name","year") VALUES
 	 ('Сборник 7',1990),
 	 ('Лучшее из джаза',2020);
 
-INSERT INTO collectiontrack (сollection_id, track_id)
+INSERT INTO collectiontrack (collection_id, track_id)
 VALUES
     (1, 1),
     (2, 2),
@@ -118,4 +118,5 @@ VALUES
     (3, 21),
     (4, 22),
     (5, 23),
+    (5, 24),
     (6, 24);
